@@ -28,7 +28,7 @@ resource "google_compute_network" "vpc_network" {
 resource "google_compute_instance" "vm_instance" {
   name         = "terraform-instance"
   machine_type = "e2-micro"
-  tags = [ "playground", "test", "vcs-test-2" ]
+  tags = [ "playground", "test", "vcs-test-4" ]
 
   boot_disk {
     initialize_params {
