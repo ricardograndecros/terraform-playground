@@ -21,7 +21,7 @@ provider "google" {
   credentials = var.GOOGLE_CREDENTIALS
 }
 
-/*resource "google_compute_network" "vpc_network" {
+resource "google_compute_network" "vpc_network" {
   name = "terraform-network"
 }
 
@@ -42,4 +42,3 @@ resource "google_compute_instance" "vm_instance" {
     }
   }
 }
-*/
